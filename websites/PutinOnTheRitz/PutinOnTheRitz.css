@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url('PutinOnTheRitz.gif');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border: 0;
+    margin: 10px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.play{
+    background: url('play.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+.pause{
+    background: url('Pause.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}

@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin-top:50px;
+    font-family: "century gothic", arial, verdana, sans-serif;
+}
+.border {
+	border-right: solid 3px #000;
+	border-left: solid 3px #000;
+}
+.car img {
+	margin:0px auto;
+}
+.imgleft { 
+	float: left;
+	padding:5px;
+}
+.color1{
+	background-color:#;
+}
+.fb {
+	margin: -5px 0px 0px 5px
+	padding-top: 2px;
+}
+.carousel-caption{
+    background-color: rgba(0,0,0,0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.carousel-caption h3, .carousel-caption p{
+    color: #FFF;
+    font-size: 1em;
+	line-height: 1 !important;
+    opacity: 1 !important; 
+}
+.carousel-caption h3{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.footer {
+    background: #808080;
+	border-top:1px solid #000;
+	margin-top: 25px;
+	padding: 15px 10px 10px 10px;
+    color: #fff;  
+}
+.footer a {
+    color: #fff;
+}
+.textcenter {
+	text-align:center;
+}
+.product {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    margin: 5% 2%;
+    width: 100%;
+    padding: 10px 10px;
+    background: #FFF;
+}
+.product h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+h1 {
+	margin-bottom: -10px;
+}
+.color3 {
+	background-color: #e0e0e0;
+}
+.peeps{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.artist h1 {
+    margin: 30px 10px 10px 10px !important;
+}
+.viewlarger {
+    font-size: .8em;
+    text-align: center;
+    color: #aaa !important;
+    font-style: italic;
+}
+.producttable {
+    width: auto;
+    margin: 10px auto;
+}
+form table{
+	margin: 10px auto;
+}
+.cont{
+    padding-top: 25px;
+    padding-left: 25px;
+    margin-bottom: 50px;
+}
+.pull-left{
+    margin-right: 20px;
+}
+.fc{
+    background: #808080;
+    width: 100%;
+    margin: 0;
+}
+.BOBC{
+    /*background-color: #197C2E;*/
+    background-image: linear-gradient(to right, #379227, #004518);
+}
+.COREYC{
+    /*background-color: #7E40DC;*/
+    background-image: linear-gradient(to right, #822BD5, #00B057);
+}
+.NEILC{
+    /*background-color: #567644;*/
+    background-color: #465F2F;
+}
+.bgitem{
+    background: #E0E0E0;
+    padding-right: 10px;
+}

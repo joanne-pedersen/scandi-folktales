@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<!--<title>A scaled corrected CSS parallax demo by Keith Clark</title>-->
+    <title></title>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        position:inherit;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        overflow-y: scroll;
+        overflow-x: visible;
+}
+    html{
+        overflow-y: auto;
+}
+    img{
+        max-width: 100%;
+    }
+    .bg {
+  background: url('https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX12181456.jpg') repeat;
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+    section {
+  color: #fff;
+  font-family: arial;
+  margin: auto;
+  line-height: 20px;
+  font-size: 16px;
+}
+    .sec1{
+        background: rgba(0,0,0,.9);
+        color:#fff;
+
+    }
+    .sec2{
+        background: rgba(255,255,255,.9);
+        color:#000;
+    }
+    section ul{
+        padding-left:30px;
+    }
+    .test{
+        width: 100%;
+        min-height: 100px;
+        height: auto;
+        background: #0000FF;
+        background-repeat: repeat;
+    }
+body::-webkit-scrollbar {
+  width: 10px;
+  z-index: 100;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(68,68,68,.75);
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(152,152,152,.75);
+}
+body::-webkit-scrollbar-corner{
+    background: rgba(68,68,68,.75);
+
+}
+
+
+/*
+	.scrollbar{
+width:530px;
+height:300px;
+background-color:#fff;
+margin:50px 0 0 40px;
+overflow-y:scroll;
+float:left;
+padding: 10px;
+border: 1px solid #c5c5c5;
+}
+.content{
+height:450px;
+}
+#css_version::-webkit-scrollbar {
+    width: 11px;
+}
+#css_version::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+}
+#css_version::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    background: rgba(28,114,150,0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+#css_version::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4);
+}
+    */
+
+
+
+</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+    <div id="css_version">
+        <div class="test">
+            <img src="http://lsnhs.lsr7.org/awd_projects/2015_joe_hays/img//hays_summit_slam/hays_summit_slam.jpg">
+        </div>
+        <div class="bg"></div>
+        <section class="sec1">
+            <h1>Home page</h1>
+            <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
+            <p>We offer the following services:</p>
+            <ul>
+                <li>Branding</li>
+                <li>Logos</li>
+                <li>Websites</li>
+                <li>Web applications</li>
+                <li>Web development – HTML5, CSS, jQuery</li>
+                <li>Content Management Systems</li>
+                <li>Responsive Web Design</li>
+                <li>Illustration</li>
+                <li>Business cards</li>
+                <li>Letterheads and compliment slips</li>
+                <li>Flyers</li>
+                <li>Mailers</li>
+                <li>Appointment cards</li>
+            </ul>
+            <h1>Sub page</h1>
+            <p>Before you choose us to take on your project you will probably want to know a bit more about us, so meet the team:</p>
+            <img src="http://lsnhs.lsr7.org/awd_projects/2015_joe_hays/img/WebImg.png" />
+            <p>Ross has over 10 years experience in the industry. He is our Creative Director, digital designer, web designer and front-end developer. He is also pretty good with a sketchbook. Before starting the company Ross worked as a designer and studio manager for a design house who boasted a number of big name clients. Ross has brought his vast experience from this role to the work he does now.</p>
+            <p>Monica is Ross’ sister, our Art Director and specialises in graphic and print design. She has also worked with some big names and her designs have won her a number of industry awards.</p>
+            <p>Rachel and Chandler are our Junior Designers. Rachel is a web designer with knowledge of HTML and CSS and supports Ross on projects. Chandler has just finished his Graphic Design degree and enjoys continuing to learn from Monica and building his experience.</p>
+            <img src="http://lsnhs.lsr7.org/awd_projects/2015_joe_hays/img/GraphicImg.png" />
+            <p>Joey and Phoebe focus on bringing new business to the company. They have won a number of big clients recently and both also have qualifications in project management to ensure that the projects run smoothly from start to finish.</p>
+        </section>
+        <img src="http://fineprintnyc.com/images/blog/history-of-logos/google/google-logo.png" style="display: block;margin-left: auto;margin-right: auto;" />
+        <section class="sec2">
+            <img src="http://lsnhs.lsr7.org/awd_projects/2015_joe_hays/img/AbtMeImg.png" />
+        </section>
+        <div class="test">
+            <img src="http://lsnhs.lsr7.org/awd_projects/2015_joe_hays/img/hydra-flag.jpg">
+
+
+           <!--<div class="scrollbar" id="css_version">
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </div>
+            </div>-->
+
+
+
+
+        </div>
+        <script>
+            $(window).scroll(function(e){
+  parallax();
+});
+function parallax(){
+  var scrolled = $(window).scrollTop();
+  $('.bg').css('top',-(scrolled*0.2)+'px');
+}
+        </script>
+        <script>
+
+    <!-- Script by hscripts.com -->
+<!-- more scripts @ https://www.hscripts.com --><script type="text/javascript">
+        function titlebar(val)
+        {
+            var msg = "Your message here --- hscripts.com";
+            var speed = 500;
+            var pos = val;var msg1 = "Big TEST";
+            var msg2 = "Little test";if(pos == 0)
+            {
+                masg = msg1;
+                pos = 1;
+            }
+            else if(pos == 1)
+            {
+                masg = msg2;
+                pos = 0;
+            }
+            document.title = masg;
+            timer = window.setTimeout("titlebar("+pos+")",speed); }
+    titlebar(0);
+        </script>
+        <!--Script by hscripts.com-->
+        <script type="text/javascript" src="libs/jquery.slimscroll.min.js"></script>
+    </div>
+</body>
+</html>

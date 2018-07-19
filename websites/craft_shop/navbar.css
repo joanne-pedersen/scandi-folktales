@@ -1,0 +1,47 @@
+/* CSS Document */
+.navbar{
+	background-color: #e0e0e0 !important;
+}
+
+.navbar-brand img {
+	margin-top: -5px;
+	margin-left: -5px;
+}
+.navbar-default .navbar-nav > .active > a {
+    background: #808080;
+    font-weight: bold;
+    color: #fff !important;
+}
+.navbar-nav a:link {
+	color: #808080  !important;
+	text-decoration: none !important;
+}
+.navbar-nav a:visited {
+	color:#808080  !important;
+}
+
+.navbar-nav a:hover {
+	color:#fff !important;
+    background: #808080 !important;
+
+}
+.dropdown-toggle{
+	color:#808080 !important;
+}
+
+
+.dropdown-menu a:link {
+	color:#000   !important;
+	text-decoration: none !important;
+	
+}
+.dropdown-menu a:visited {
+	color:#000  !important;
+}
+.dropdown-menu a:active {
+	color:#000 !important;
+}
+.dropdown-menu a:hover {
+	color:#000 !important;
+}
+

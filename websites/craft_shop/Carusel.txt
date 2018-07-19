@@ -1,0 +1,30 @@
+--Active--
+
+<div class="carousel-caption">
+    <h3>Graphics Music Pictures</h3>
+<p>Welcome to our store.  We came together to bring you visual and auditory pleasure.  All of our works are avalable for digital or physical purchase</p>
+    </div>
+
+--Bob Ross--
+
+<div class="carousel-caption">
+    <h3>Bob Ross</h3>
+    <p>As an artist I promise that I will put my heaqrt and soul into every graphic.  Any and all of the prints here are for sale for digital download or printed copies.</p>
+    </div>
+
+--Cory Taylor--
+
+<div class="carousel-caption"> 
+    <h3><Corey Taylor </h3>
+    <p>dfdjigjkfd dfbfsdb</p>
+    </div>
+
+--Neil DeMouse--
+
+<div class="carousel-caption">
+    <h3>Neil DeMouse</h3>
+    <p>I take pride in offering nothing but the best photographs. I specialize in taking beautiful nature pictures. Hopefully my pictures can make you relax and can improve your life.</p>
+    </div>
+
+
+This website uses PayPal's secure servers for fund transfer to ensure the safest most secure payment.

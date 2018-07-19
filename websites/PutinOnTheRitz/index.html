@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Putin on the Ritz</title>
+    <link rel="stylesheet" href="PutinOnTheRitz.css" type="text/css">
+</head>
+<body>
+    <button href="javascript:void(0)" data-toggle="tooltip" title="Play/Pause" onclick="aud_play_pause()" id="stateicon" class="pause"></button>
+    <audio autoplay loop id="music">
+        <source src="Putin%20on%20the%20Ritz.mp3">
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        function aud_play_pause() {
+            var myAudio = document.getElementById("music");
+            if (myAudio.paused) {
+                $('#stateicon').removeClass('play');
+                $('#stateicon').addClass('pause');
+                myAudio.play();
+            } else {
+                $('#stateicon').removeClass('pause');
+                $('#stateicon').addClass('play');
+                myAudio.pause();
+            }}
+    </script>
+</body>
+</html>

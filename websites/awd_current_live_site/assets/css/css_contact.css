@@ -1,0 +1,29 @@
+.bottom{
+    border-bottom: 1px solid #ddd;
+}
+.top {
+    border-top: none;
+}
+.well {
+    margin: 30px auto 0px auto;
+}
+.well h2 {
+    margin-top: 5px;
+}
+.indent {
+    margin-left: 3em;
+    margin-bottom: 20px;
+}
+.directional {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+.panel-body .glyphicon, td .fa{
+    color: #007EFF
+}
+.list-group {
+    width: 90%;
+    margin: 10px auto;
+}
+

@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+h1, h2, nav{
+    font-family: Bodoni;
+}
+@font-face {
+    font-family: 'Bodoni';
+    src: url('../fonts/BodoniXT.ttf') format('truetype');
+}
+.content{
+    padding-top: 50px;
+}
+.collapsed{
+    text-align: center;
+}
+.panel-body{
+    padding: 0 !important;
+}
+.BtmPdd{
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+.trigger{
+    text-align: center;
+}
+.trigger a{
+    color: #FFF;
+    text-decoration: none !important;
+}
+.examples{
+    margin: 1.5% auto; 
+}
+.PanelInfo{
+    background: rgba(0,0,0,0.3);
+}
+.moreInfo{
+    margin: 5px auto !important;
+    background: rgba(255, 255, 255, 0.7);
+}
+.modal-content{
+    background: rgba(255, 255, 255, 0.9);
+}
+.modal{
+    background: rgba(0, 0, 0, 0.75);
+}
+.modal-header, .modal-body p, .modal-footer p{
+    color: #000 !important;
+}
+.close{
+    color: #000 !important;
+}
+.logoImg{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.mfp-figure:after{   
+    background: rgba(69, 69, 69, 0.75) !important;
+}
+.mfp-figure{
+    padding: 5px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Nav*/
+.navbar{
+    padding-bottom: 0px;
+    background-image: url('../img/NavBG.jpg') !important;
+    background: #0000ff;
+    border-bottom: 0 !important;
+    width: 100%; 
+}
+.navimg{
+    height: 50px !important;
+    margin-top: -15px;
+}
+.nav li{
+    text-align: center;
+    font-size: 18px;
+    background: rgba(0,0,0,0.3);
+}
+.nav > li > ul > li{
+    background: rgba(0,0,0,0.5);
+}
+.nav li a{
+    color: #FFF !important;
+    height: 50px;
+}
+.nav li a:hover{
+    color: #FFF !important;
+    height: 50px;
+    background-color: rgba(0, 128, 167, 0.6) !important;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF !important;
+    height: 50px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.navbar-header a{
+    color: #FFF !important;
+    background: rgba(0,0,0,0.3)
+}
+.navbar-default .navbar-header > a:hover, 
+.navbar-default .navbar-header > a:focus {
+    color: #FFF !important;
+    background-color: rgba(0, 128, 167, 0.6) !important;
+}
+.navbar-nav > li > .dropdown-menu, open{
+    background: rgba(0,0,0,0.75) !important;
+}
+
+/*ME*/
+.me{
+    background: #888888;
+    padding: 1%;
+}
+.ProPic{
+    padding-right: 2%;
+    max-width: 50% !important;
+}
+.me p{
+    padding-top: auto;
+}
+
+/*Web*/
+.web{
+    background: #31014B;
+    background-image: url(../img/WebImg.png) !important;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:top left;
+}
+.WebInfo{
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-bottom: 1% !important;
+}
+
+/*Photo*/
+.photo{
+    background: #071657;
+    background-image: url(../img/GraphicImg.png) !important;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:top left;
+}
+
+/*About Me*/
+.AbtMe{
+    background: #363636;
+    background-image: url(../img/AbtMeImg.png) !important;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:top left;
+}
+
+/*Footer*/
+.footer{
+    background: #171717;
+    padding-top: 10px;
+}
+.footer .well{
+
+    text-align: center;
+}
+.footer .well h1{
+    color: #000 !important;
+}
+.footer h1{
+    font-size: 1.5em;
+    color: #FFF;
+    margin-top: -5px;
+    text-align: center;
+}
+.footer .well .fa-facebook-official{
+    color: #46629d;
+    margin: 5px 10px;
+    font-size: 3em;
+}
+.footer .well .fa-instagram{
+    color: #32628a;
+    margin: 5px 10px;
+    font-size: 3em;
+}
+.footer .well .fa-twitter{
+    color: #329bc2;
+    margin: 5px 10px;
+    font-size: 3em;
+}
+.footer .well .fa-google-plus{
+    color: #dd4b39;
+    margin: 5px 10px;
+    font-size: 3em;
+}
+.footer .well .fa-linkedin{
+    color: #0177b5;
+    margin: 5px 10px;
+    font-size: 3em;
+}
+.footer hr{
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 1em 0;
+    padding: 0;  
+}
+.footer table{
+    padding: 0 auto;
+    margin: 0 auto 10px auto;
+}
+.footer table a{
+    color: #FFF;
+    text-align: center;
+}
+.footer table td{
+    padding: 0 50px;
+}

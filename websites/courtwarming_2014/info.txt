@@ -1,0 +1,107 @@
+<h2>Pep Assembly</h2>
+<p>Friday, January 16, 2015</br>
+1:40 pm</br>
+LSN Fieldhouse</br>
+</p>
+<h2>Basketball Game</h2>
+<p>Friday, January 16, 2015</br>
+7:00 pm</br>
+LSN vs. Hogan Prep Academy</p>
+Courtwarming King and Queen will be crowned before the start of the varsity game. </p>
+
+<!--Royalty-->
+<h2>King and Queen Candidates</h2>
+<table class="table">
+<tr>
+	<th>King Nominees</th>
+	<th>Queen Nominees</th>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+</table>
+
+<h2>Junior Candidates</h2>
+<table class="table">
+<tr>
+	<th>King Nominees</th>
+	<th>Queen Nominees</th>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+</table>
+
+<h2>Sophomore Candidates</h2>
+<table class="table">
+<tr>
+	<th>King Nominees</th>
+	<th>Queen Nominees</th>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+</table>
+
+<h2>Freshmen Candidates</h2>
+<table class="table">
+<tr>
+	<th>King Nominees</th>
+	<th>Queen Nominees</th>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+<tr>
+	<td>TBA</td>
+	<td>TBA</td>
+</tr>
+</table>

@@ -1,0 +1,25 @@
+.homework {
+    line-height: 140%;
+}
+.well h2 {
+    line-height: 1.5em;
+}
+.steps {
+    width: 80%;
+    margin: 0 auto 25px auto;
+}
+.homeworkqa li {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+}
+.question {
+    font-size: 1.2em;
+    color: #a40000;
+}
+.first {
+    margin-top: 50px;
+}
+
+.homework li {
+    margin-left: 2em;
+}

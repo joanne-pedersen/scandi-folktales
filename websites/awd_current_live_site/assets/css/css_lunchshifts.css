@@ -1,0 +1,18 @@
+.lunchhead {
+    text-align: center;
+}
+.lunchhead p {
+    font-size: 1.2em;
+}
+.lunchheader h2 {
+    text-align: center;
+}
+.lunchcol h3 {
+    font-size: 1.2em;
+    color: #a40000;
+    font-weight: bold;
+}
+.lunchcol p {
+    margin: 3px 0 0 3px;
+    font-size: 1em;
+}

@@ -1,0 +1,117 @@
+/* CSS Document */
+body {
+	margin: 70px 0 0 0;
+	padding: 0;
+}
+.navbar{
+	background-color: #A40000 !important;
+}
+
+.navbar-brand img {
+	margin-top: -5px;
+	margin-left: -5px;
+}
+
+.navbar-nav a:link {
+	color:#fff   !important;
+	text-decoration: none !important;
+	
+}
+.navbar-nav a:visited {
+	color:#fff  !important;
+}
+.navbar-nav a:active {
+	color:#fff  !important;
+}
+.navbar-nav a:hover {
+	color:#fff !important;
+}
+.dropdown-toggle{
+	color:#fff !important;
+}
+
+
+.dropdown-menu a:link {
+	color:#000   !important;
+	text-decoration: none !important;
+	
+}
+.dropdown-menu a:visited {
+	color:#000  !important;
+}
+.dropdown-menu a:active {
+	color:#000 !important;
+}
+.dropdown-menu a:hover {
+	color:#000 !important;
+}
+.btn-default {
+	background-color: #a40000;
+	color: #ccc;
+	
+	}
+	
+	
+	
+	
+
+
+.footer {
+	background-color: #a40000 !important;
+	color:#fff !important;
+	font-size: .8em;
+	
+}
+
+table {
+	border: 2px solid #ddd;
+	margin-top: 20px;
+}
+
+.toprow {
+	background-color: #000 !important;
+	color:#fff;
+	text-align:center;
+	font-size:1.2em;
+	text-transform:uppercase;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+
+h2 {
+	font-size: 15px !important;
+}
+
+footer {
+	text-align:center;
+	color:#fff;
+	background-color:#a40000;
+
+}
+
+.carousel-inner {
+	height: 200px !important;
+}
+.carousel-inner img {
+	float:left !important;
+	padding-right: 10px !important;
+	margin-top: 0 !important;
+}
+
+.carousel-inner p {
+	padding-top:10px !important;
+}
+
+.team {
+	font-size:15px !important;
+}
+
+.link {
+	color:#FC6 !important;
+}
+
+	
+

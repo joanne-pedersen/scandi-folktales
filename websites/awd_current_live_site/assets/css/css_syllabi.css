@@ -1,0 +1,15 @@
+.nav-pills > li.active > a {
+    background-color:#4a0000;
+    color: #fff;
+}
+.nav-pills > li.active > a:hover {
+    background-color:#ccc;
+    color: #fff;
+}
+ul.deptpills li a:hover {
+    background-color: #4A0000;
+    color: #fff;
+}
+.syllabi h2 {
+    font-size: 1.2em;
+}

@@ -1,0 +1,30 @@
+.admin .panel h1 {
+    font-size: 1.5em;
+}
+.admin .panel h2 {
+    font-size: 1.2em;
+}
+.admin .panel h3 {
+    font-size: 1.2em;
+}
+.admin .panel .imgmargin {
+    margin: 0 20px 10px 0;
+}
+.meetteam p {
+    margin-top: 0;
+    margin-bottom: 2px;
+    text-align: center;
+}
+.meetteam img {
+    margin: 5px auto;
+}
+
+/*adding the equal class to the row div provides equal heights panels but you lose the responsiveness for smaller windows*/
+.equal, .equal > div[class*='col-'] {  
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
+.panel-body img {
+    border-radius: 6px 
+}

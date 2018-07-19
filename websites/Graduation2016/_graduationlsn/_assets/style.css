@@ -1,0 +1,580 @@
+/* CSS Document */
+
+/*CSS3 Call Up Fonts---------*/
+@font-face {
+    font-family: 'ArimoRegular';
+    src: url('fonts/Arimo-Regular-Latin-webfont.eot');
+    src: url('fonts/Arimo-Regular-Latin-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/Arimo-Regular-Latin-webfont.woff') format('woff'),
+url('fonts/Arimo-Regular-Latin-webfont.ttf') format('truetype'),
+url('fonts/Arimo-Regular-Latin-webfont.svg#ArimoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ArimoItalic';
+    src: url('fonts/Arimo-Italic-Latin-webfont.eot');
+    src: url('fonts/Arimo-Italic-Latin-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/Arimo-Italic-Latin-webfont.woff') format('woff'),
+url('fonts/Arimo-Italic-Latin-webfont.ttf') format('truetype'),
+url('fonts/Arimo-Italic-Latin-webfont.svg#ArimoItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ArimoBold';
+    src: url('fonts/Arimo-Bold-Latin-webfont.eot');
+    src: url('fonts/Arimo-Bold-Latin-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/Arimo-Bold-Latin-webfont.woff') format('woff'),
+url('fonts/Arimo-Bold-Latin-webfont.ttf') format('truetype'),
+url('fonts/Arimo-Bold-Latin-webfont.svg#ArimoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ArimoBoldItalic';
+    src: url('fonts/Arimo-BoldItalic-Latin-webfont.eot');
+    src: url('fonts/Arimo-BoldItalic-Latin-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/Arimo-BoldItalic-Latin-webfont.woff') format('woff'),
+url('fonts/Arimo-BoldItalic-Latin-webfont.ttf') format('truetype'),
+url('fonts/Arimo-BoldItalic-Latin-webfont.svg#ArimoBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*--------Site Styles--------*/
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	background-image:url(../images/background.png);
+	font-family: verdana, Helvetica, sans-serif;
+	font-size: 12px;
+}
+h1 {
+	color: #660000;
+	text-align: center;
+	margin: 15px 0;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-family: ArimoBold, verdana, arial, sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+	margin: 15px 0 10px 0;
+	font-size: 1.1em;
+	font-family: verdana, arial, sans-serif;
+}
+h3 {
+	color: #000;
+	font-size:1em;
+
+}
+img {
+	border: none;
+}
+a:visited {
+	text-decoration:underline;
+	color:#990000;
+	background-color:none
+	}
+a:link {
+	text-decoration:underline;
+	color:#990000;
+	background-color:none
+	}
+a:hover {
+	text-decoration:none;
+	color:#000000;
+	background-color:#EEEEEE;
+}
+.container {
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	background-image: url('../images/background.jpg');
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=215, Color='#474747')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=215, Color='#474747');
+}
+.banner {
+	width: 1000px;
+}
+
+/*-------nav section -------------*/
+.nav {
+	width: 1000px;
+	height: 30px;
+	clear: both;
+	padding: 0;
+	margin: 0 0 20px 0;
+	background: #000;
+	color: #fff;
+}
+/*.nav a {
+	text-decoration: none;
+	color: #fff;
+}
+.nav a:hover {
+	background: #ccc;
+	color: #000;
+}
+*/
+#countdown {
+	float: right;
+	padding: 5px 10px 0 0;
+	vertical-align: middle;
+	height: 30px;
+	width: 366px;
+}
+#countdownleft {
+	float: left;
+	padding: 7px 0 0 0;
+	color: #ccc;
+}
+#countdownright {
+	float: left;
+}
+#cssmenu
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	position:relative;
+	display:block;
+	height:36px;
+	font-size:12px;
+	font-weight:bold;
+	background: #000; /*transparent url('../images/bg.jpg') repeat-x top left;*/
+	font-family:'Trebuchet MS',Helvetica,Arial,Verdana,sans-serif;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #000000;
+}
+
+#cssmenu li
+{
+	display:block;
+	float:left;
+	margin:0;
+	padding: 0;
+}
+	
+#cssmenu li a
+{
+	display:block;
+	float:left;
+	color: #DDD;
+	text-decoration:none;
+	font-weight:bold;
+	padding:12px 20px 0 20px;
+	height:22px;
+
+}
+	
+#cssmenu li a:hover
+{	
+	color:#FFFFFF;
+	background:transparent url('../images/over.jpg') no-repeat top right;	
+}
+
+
+/*-------leftnav section ----------*/
+.leftnav {
+	width: 222px;
+	height: 790px;
+	margin: 0px 50px 20px 20px;
+	float: left;
+	background: #fff; /*#b5b5b5;*/
+	padding: 0px 0px 0px 0px;
+	-moz-border-radius: 15px 15px;
+    -webkit-border-radius: 15px 15px;
+	border-radius: 15px 15px;
+	line-height: 1.5em;
+}
+.leftnav h3 {
+	margin: 10px 0 10px 0;
+}
+.leftnav ul {
+	list-style-type: none;
+	padding:-10px;
+}
+.leftnav li{
+	height: 20px;
+	width: 222px;
+	display:block;	
+
+}
+.leftnav li a {
+	height: 20px;
+	width: 205px;
+	background-image: url(../images/buttonhover_white.jpg);
+	display:block;
+	padding-left:17px;
+	text-decoration: none;
+	color: #660000;
+}
+.leftnav li a:hover {
+	
+	background-image: url(../images/buttonhover.jpg);
+		color: #fff;
+		text-decoration: none;
+}
+.leftnav h3{
+	padding: 0 0 0 7px;
+	margin: 7px 0 2px 0;
+	
+}
+.leftnav h5{
+	padding-left: 0px;
+	font-size:1em;
+	font-weight: normal
+}
+
+/*-------content section ----------*/
+.content {
+	width: 628px;
+	min-height: 760px;
+	margin: 0px 20px 20px 0px;
+	float: left;
+	background:#fff; /*#b5b5b5;*/
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	border-radius: 15px;
+	padding: 15px 30px;
+	line-height: 150%;
+}
+.content li{
+	margin-bottom:5px;
+}
+
+
+
+
+
+
+/*------footer styles ---------*/
+.footer {
+	width: 1000px;
+	height: 127px;
+	background-color: #660000;
+	clear: both;
+	text-align:center;
+	font-size:.85em;
+	color: #fff;
+	line-height:1.5em;
+}
+.footer a:visited {
+	text-decoration:none;
+	color:#333;
+	background-color:none
+	}
+.footer a:link  {
+	text-decoration:none;
+	color:#666;
+	background-color:none
+	}
+.footer a:hover  {
+	text-decoration:none;
+	color:#000000;
+	background-color:#EEEEEE;
+}
+
+/*----classes for formatting ------*/
+.center{text-align:center;}
+
+.alignleft{text-align:left;}
+
+.caption {
+	font-style:italic;
+	line-height: 100%;
+	font-size: .8em;
+	margin-top: 0;
+	padding-top: 0;
+}
+.picright {
+	float: right;
+	padding: 10px;
+}
+.indent {
+	margin: 3px 0 10px 25px;
+}
+.upper {
+	text-transform: uppercase;
+}
+
+/*---------Baccalaureate Page---*/
+.baccinfo {
+	text-align: center;
+	font-weight: bold;
+	margin: 10px 0 20px 0;
+}
+.bacc {
+	margin-top: 10px;
+	padding: 10px 0 0 20px;
+	list-style-image: url('../images/bullet.gif');
+}
+.bacc li {
+	margin-bottom:15px;
+}
+
+
+/*---------Dates for Seniors Page---*/
+#datestable {
+	width: 650px;
+	margin: 10px auto;
+	border-collapse: collapse;
+}
+#datestable td {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+#datestable .section {
+	border-bottom: 2px solid #666;
+	border-top: 2px solid #666;
+	background-color: #EFEFEF;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: left;
+}
+#datestable tr td:nth-child(1) {
+  text-align: center;
+}
+.survey {
+	margin: 10px 0 10px 35px;
+}
+.survey li {
+	margin-bottom: 10px;
+}
+
+/*---------Dress Code Page---*/
+.dress {
+	padding: 30px 0 0 40px;
+	font-weight: normal;
+	list-style-image: url('../images/bullet.gif');
+}
+.dress li {
+	margin-bottom:15px;
+}
+
+/*---------Final Exams Page---*/
+#finalstable {
+	width: 550px;
+	margin: 10px auto 20px auto;
+	border-collapse: collapse;
+}
+#finalstable td, #finalstable th {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+#finalstable th {
+	background: #e0e0e0;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.3em;
+}
+#finalstable .highlight {
+	background: #F7F7F7;
+	font-weight: bold;
+}
+#finalstable .yellow {
+	background: #FF6;
+	font-weight: bold;
+}
+#finalstable .section {
+	border-bottom: 2px solid #666;
+	border-top: 2px solid #666;
+	background-color: #EFEFEF;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: left;
+}
+.finalsinfo {
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0 20px 0;
+}
+
+
+
+/*---------Maps Page---*/
+.colmaps {
+	padding: 10px;
+	margin: 0;
+	border: 0;
+	width: 294px;
+	float: left;
+}
+.church {
+	padding: 10px;
+	margin: 0;
+	border: 0;
+	width: 294px;
+	float: left;
+	text-align: right;
+	line-height: 100%;
+}
+.colmapsgoogle {
+	padding: 10px;
+	margin: 0;
+	border: 0;
+	width: 294px;
+	float: left;
+	text-align: center;
+}
+.divider {
+	padding: 10px;
+	width: 608px;
+	clear: both;
+}
+.maps {
+	margin: 10px 0 0 35px;
+	padding: 10px 0 0 20px;
+	list-style-image: url('../images/bullet.gif');
+}
+.maps li {
+	margin-bottom:15px;
+
+	
+}
+
+/*---------Senior Meeting Page---*/
+#meetingtable {
+	width: 550px;
+	margin: 10px auto 20px auto;
+	border-collapse: collapse;
+}
+#meetingtable td, #meetingtable th {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+#meetingtable th {
+	background: #e0e0e0;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.3em;
+}
+#meetingtable .highlight {
+	background: #F7F7F7;
+	font-weight: bold;
+}
+#meetingtable .section {
+	border-bottom: 2px solid #666;
+	border-top: 2px solid #666;
+	background-color: #EFEFEF;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: left;
+}
+.meetinginfo {
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0 20px 0;
+}
+/*---------Procedures Page---*/
+
+.procedures {
+	padding: 30px 0 0 40px;
+	font-weight: normal;
+	list-style-image: url('../images/bullet.gif');
+}
+.procedures li {
+	margin-bottom:15px;
+}
+.subprocedures {
+	padding: 10px 0 0 70px;
+	font-weight: normal;
+	list-style-type: decimal;
+}
+.subprocedures li {
+	margin-bottom:15px;
+}
+/*---------Rules Page---*/
+
+.rules {
+	padding: 30px 0 0 40px;
+	font-weight: normal;
+	list-style-image: url('../images/bullet.gif');
+}
+.rules li {
+	margin-bottom:15px;
+}
+/*---------Tickets Page---*/
+
+.tickets {
+	padding: 15px 0 0 40px;
+	font-weight: normal;
+	list-style-image: url('../images/bullet.gif');
+}
+.tickets li {
+	margin-bottom:15px;
+}
+/*---------Pictures Page---*/
+
+.pics {
+	padding: 30px 0 0 40px;
+	font-weight: normal;
+	list-style-image: url('../images/bullet.gif');
+}
+.pics li {
+	margin-bottom:15px;
+}
+
+.center {
+	text-align: center;
+}
+.highlight {
+	background: #FF0;
+	font-weight: bold;
+}
+.imgleft {
+	float: left;
+	padding: 0 25px;
+}
+.clearfix {
+	clear: both;
+}
+/*===================PROJECT GRAD PAGE=============================*/
+#pgradtrash {
+	text-align: center;
+	width: 97%;
+	clear: both;
+	border: 1px solid #ccc;
+	margin: 5px auto;
+	padding: 10px;
+
+}
+#pgradtrash h3 {
+	font-size: 1.2em;
+}
+.grayborder {
+	border: 2px solid #333;
+}
+.trashbagtable {
+	width: 95%;
+	border-collapse: collapse;
+	margin: 10px auto;
+}
+.trashbagtable td {
+	width: 33%;
+	text-align: center;
+	padding: 10px 3px;
+}
+.crimson {
+	color: #660000;
+	background: #FFC;

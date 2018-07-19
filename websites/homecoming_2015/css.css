@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Body*/
+body{
+    font-size: 2em !important;
+}
+.padding{
+    height: 700px;
+}
+.banner{
+    background: #000 !important;
+}
+@font-face {
+    font-family: 'sonic';
+    src: url('fonts/sonic.ttf') format('truetype');
+}
+h1{
+    color: #A10000 !important;
+    font-size: 3.5em !important;
+    font-family: 'sonic' !important;
+}
+table{
+    margin: 0 auto !important;
+    float: none !important;
+}
+.tt td{
+    padding-top: 5px;
+}
+
+/*Nav*/
+.navbar{
+    background: #000 !important;
+    color: #FFF !important;
+    width: 100% !important;
+    border: none !important;
+    border-radius: 0px !important;
+    font-family: 'sonic' !important;
+    font-size: .75em;
+}
+.nav li:hover{
+    background: #131B1E !important;
+}
+.nav li a{
+    color: #FFF !important;    
+}
+.nav li a:hover{
+    color: #A10000 !important;
+}
+.navbar-header{
+    margin: 0 !important;
+}
+nav .container-fluid{
+    padding-left: 0 !important;
+}
+.navbar-toggle{
+    margin-right: 0 !important;
+}
+.navbar-brand{
+    color: #A10000 !important;
+}
+.navbar-brand:hover{
+    background: #131B1E !important;
+    color: #FFF !important;
+}
+.navbar-collapse{
+    margin: 0 10px !important;
+    border: none !important;
+}
+.navbar-toggle{
+    background: #A10000 !important;
+    border: none !important;
+    border-radius: 2px !important;
+}
+.navbar-toggle span{
+    background: #B4B4B4 !important;
+}
+
+/*Row 1*/
+.info{
+    
+}
+.row1{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background: #131B1E;
+    color: #B4B4B4;
+}
+.r1c2{
+    
+}
+.r1c2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*Row 2*/
+.row2{
+    padding: 30px 0;
+    background: #000;
+    color: #B4B4B4;
+}
+.r2c1{
+    text-align: center;
+}
+.r2c2{
+    
+}
+
+/*Row 3*/
+.row3{
+    background: #131B1E;
+    color: #B4B4B4;
+    padding-top: 30px;
+    text-align: center;
+}
+.row3 a{
+    color: #A10000;
+}
+.row3 a:hover{
+    color: #FFF;
+}
+.row3 a:visited{
+    color: #A10000;
+}
+.row3 a:active{
+    color: #FFF;
+}
+
+/*Row 4*/
+.row4{
+    background: #131B1E;
+    color: #B4B4B4;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.row4 h1{
+    font-size: 1.25em !important;
+}
+.row4 td{
+    padding: 5px 50px;
+    margin: 0 10px;
+}
+.row4 thead{
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+/*Footer*/
+.footer{
+    padding: 30px 0;
+    background: #000;
+    color: #FFF;
+    font-size: .65em;
+}
+.footer a{
+    color: #A10000;
+}
+.footer a:hover{
+    color: #A10000;
+}
+.footer a:visited{
+    color: #A10000;
+}
+.footer a:active{
+    color: #FFF;
+}

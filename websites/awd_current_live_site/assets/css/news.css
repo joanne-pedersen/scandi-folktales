@@ -1,0 +1,12 @@
+.newsstory p {
+    line-height: 200%;
+}
+.newsstory img {
+    padding: 25px;
+}
+.btn-warning {
+    color: #000;
+}
+.newslist li {
+	margin-bottom: 10px;
+}

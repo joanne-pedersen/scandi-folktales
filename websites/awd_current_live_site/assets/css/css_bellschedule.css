@@ -1,0 +1,22 @@
+table.schedule {
+    width: 90%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #808080;
+}
+table.schedule th {
+    background: #808080;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+}
+.ampm {
+    font-size: .8em;
+}
+.subheader {
+    font-weight: bold;
+    color: #a40000;
+    font-size: 1.1em;
+}

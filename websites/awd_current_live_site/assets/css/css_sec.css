@@ -1,0 +1,48 @@
+body {
+    
+}
+.datetime{
+	font-size: 1.1em;
+}
+.scheduleinstructions li {
+    margin-bottom: 15px;
+}
+
+.enrollmentinfo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.linksbuttons {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	
+}
+
+.linksbuttons button {
+    border: 2px solid #FFF;
+    color: #FFF;
+    background-color: #4A0000;
+    font-size: 25px;
+    margin-bottom: 5px;
+	background: #4a0000;
+}
+
+.linksbuttons button:hover {
+    border: 2px solid #4A0000;
+    color: #4A0000;
+    background-color: #FFF;
+}
+
+.coursebook {
+    margin-top: 20px;
+}
+
+.hideonscreen {
+    display: none !important;
+}
+
+.nostyles:hover {
+    text-decoration: none;
+}

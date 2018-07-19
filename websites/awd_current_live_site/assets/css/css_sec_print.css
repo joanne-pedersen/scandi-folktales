@@ -1,0 +1,23 @@
+body {
+    float: none;
+    text-align: left;
+    margin: 0px;
+}
+
+div {
+    float: none;
+    text-align: left;
+    margin: 0px;
+}
+
+.hideonprint {
+    display: none !important;
+}
+
+.scheduleinstructions li {
+    margin-bottom: 15px;
+}
+
+.footer, .header_info, .headerinfo_contact, #searchbar, .navbar, #quicklinks, .main_info, .mainheader{
+    display: none !important;
+}

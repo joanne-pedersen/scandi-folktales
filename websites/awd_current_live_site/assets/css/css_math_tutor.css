@@ -1,0 +1,65 @@
+.tutorschedule {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0;
+	width: 100%;
+}
+.tutorschedule  td {
+	border-right: 1px solid #ccc;
+	padding: 8px 3px 8px 3px;
+	width: 20%;
+	text-align: center;
+}
+.tutorschedule  th {
+	border-right: 1px solid #ccc;
+	padding: 3px 3px 7px 3px;
+	text-align: center;
+	color: #660000;
+}
+.tutorschedule td.last, .tutorschedule th.last {
+	border-right: 0;
+}
+.morning {
+	width: 80%;
+	padding: 3px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px dashed #ccc;
+	margin: 5px auto 3px auto;
+	color: #666;
+}
+.afternoon {
+	width: 80%;
+	padding: 3px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px dashed #ccc;
+	margin: 5px auto 3px auto;
+	color: #666;
+}
+.tutorschedule_ll {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0;
+	width: 100%;
+}
+.tutorschedule_ll  td {
+	border: 0;
+	padding: 8px 3px 8px 3px;
+	width: 20%;
+	text-align: center;
+}
+.tutorschedule_ll  th {
+	border: 0;
+	padding: 3px 3px 7px 3px;
+	text-align: center;
+	color: #660000;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: 	-webkit-linear-gradient(left, rgba(0,0,0,.1), rgba(0,0,0,0.3), rgba(0,0,0,.1)); 
+    background-image:   -moz-linear-gradient(left, rgba(0,0,0,.1), rgba(0,0,0,0.3), rgba(0,0,0,.1)); 
+    background-image:   -ms-linear-gradient(left, rgba(0,0,0,.1), rgba(0,0,0,0.3), rgba(0,0,0,.1)); 
+    background-image:   -o-linear-gradient(left, rgba(0,0,0,.1), rgba(0,0,0,0.3), rgba(0,0,0,.1)); 
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding-bottom: 0px;
+    background: #850845;
+    border-bottom: 0 !important;
+}
+.nav li{
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+}
+.nav li a{
+    color: #B7B7B7 !important;
+    height: 50px;
+}
+.nav li a:hover{
+    background: #B7B7B7 !important;
+    color: #000 !important;
+    height: 50px;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000 !important;
+    height: 50px;
+}
+.banner{
+    background: #FFF;
+    margin-top: 50px;
+    width: 100% !important;
+    height: 50% !important;
+}
+.bannInfo{
+    background: #FFF;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-align: center;
+}
+.bannCaro{
+    background: #850845;
+    padding: 0 auto !important;
+    margin: 0 auto !important;
+}
+.BannImg{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    
+}
+.content{
+    background: #C7C7C7;
+    height: 100%;
+}
+.ContWell{
+    height: 100%;
+    padding-left: 50px !important;
+}
+.map{
+    height: 400px !important;
+    width: 100% !important;
+    border: 0;
+}
+h1, h2, nav{
+    font-family: Felixti;
+}
+@font-face {
+    font-family: Felixti;
+    src: local(Felixti), url('fonts/Felixti.ttf') format('opentype');
+}
+.navbar-header a{
+    color: #B7B7B7 !important;
+}
+.navbar-default .navbar-header > a:hover, 
+.navbar-default .navbar-header > a:focus {
+    color: #000 !important;
+    background: #B7B7B7;
+}
+.navbar-header a:visited{
+    background: #C7C7C7;
+}
+.org ul{
+    padding-left: 50px;
+}
+.org p{
+    padding-left: 50px;
+}
+.org h2{
+    padding-left: 25px;
+}
+table th, table td{
+    padding: 10px 25px;
+}
+table th{
+    border-bottom: solid 3px #000;
+}
+.vert{
+    border-right: solid 3px #000;
+}
+.footer p{
+    text-align: center;
+}

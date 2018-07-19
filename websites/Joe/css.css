@@ -1,0 +1,43 @@
+body{
+	background-color: #E6E6E6;
+}
+.info{
+	background-color: #FFF;
+	margin-top: 51px;
+}
+.profile{
+    border: solid 2px #c7c7c7;
+    padding: 2px;
+    margin-bottom: 13px;
+}
+.list{
+    margin-left: -30px;
+}
+.pt{
+    padding-top: 4px;
+}
+.main-content{
+    border-left: 1px solid #C7C7C7;
+}
+.carousel-caption{
+    background-color: rgba(0,0,0,0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.carousel-caption h3, .carousel-caption p{
+    color: #FFF;
+    font-size: 1.5em;
+    opacity: 1 !important;
+    
+}
+.footer{
+    text-align: center;
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.well{
+    width: 98%;
+    padding-top: 0px;
+    margin-top: 14px;
+}

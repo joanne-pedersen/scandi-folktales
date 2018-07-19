@@ -1,0 +1,18 @@
+.conflist li {
+    margin-bottom: 13px;
+}
+.impt {
+    color: #a40000;
+    font-weight: bold;
+}
+.highlight {
+    background-color: #ffff00;
+}
+.go {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.conferences {
+	line-height: 1.5;
+}
