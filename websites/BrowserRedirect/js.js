@@ -10,5 +10,5 @@ if (isChrome == true) {
 } else if (isFirefox == true) {
     alert("Firefox");
 } else {
-    alert(HAHA NOPE);
+    alert("HAHA NOPE");
 }
