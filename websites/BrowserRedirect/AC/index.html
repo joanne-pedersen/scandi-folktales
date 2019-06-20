@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting to the app store.</title>
+    <script src="js.js"></script>
+</head>
+<body>
+    <script>
+        // Firefox 1.0+
+        var isFirefox = typeof InstallTrigger !== 'undefined';
+
+        // Chrome 1 - 71
+        var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+
+        //Output
+        if (isChrome == true) {
+            window.location.replace("http://www.w3schools.com");
+        } else if (isFirefox == true) {
+            window.location.replace("http://www.w3schools.com");
+        } else {
+            window.location.replace("http://www.w3schools.com");
+        }
+    </script>
+</body>
+</html>
