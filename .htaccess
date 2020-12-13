@@ -1,6 +1,0 @@
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^josephhays\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.josephhays\.com$
-RewriteRule ^dogs$ "http\:\/\/omfgcorgis\.corgiorgy\.com\/" [R=301,L]
-
