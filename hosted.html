@@ -24,11 +24,12 @@
 </head>
 <body>
     <script>
-        const channel = getUsername; //Type your Twitch Username in in place of G2bb.
+        const channel = getUsername(); //Type your Twitch Username in in place of G2bb.
         var emotes, count = 0;
 
         function getUsername(){
             var URL = window.location.search;
+            console.log(URL.split('?')[1]);
             return URL.split('?')[1];
         }
 
