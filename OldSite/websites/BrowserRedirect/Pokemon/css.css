@@ -1,0 +1,44 @@
+*{margin:0;padding:0;border:none;}
+
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 1.25em;
+    font-weight: normal;
+    line-height: 2;
+}
+
+img{
+    max-width: 70%;
+}
+
+.links{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px !important;
+}
+
+.amp{
+    font-size: 13vw;
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+
+.side{
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
